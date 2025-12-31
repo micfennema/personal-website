@@ -5,7 +5,7 @@
   "scripts": {
     "build:css": "npx tailwindcss -i ./assets/css/main.css -o ./_site/assets/css/main.css",
     "watch:css": "npx tailwindcss -i ./assets/css/main.css -o ./_site/assets/css/main.css --watch",
-    "start": "npm run build:css && (npm run watch:css & jekyll serve --livereload)"
+    "start": "bundle exec jekyll build && npm run build:css && (npm run watch:css & bundle exec jekyll serve --skip-initial-build --livereload)"
   },
   "keywords": [],
   "author": "Michael Fennema",
