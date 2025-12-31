@@ -1,0 +1,30 @@
+title: "Michael Fennema"
+email: micfennema@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Literature review and theology writings.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+permalink: /:categories/:year/:month/:day/:title/
+
+# Build settings
+theme: null
+plugins: []
+exclude:
+  - package.json
+  - package-lock.json
+  - node_modules
+  - Gemfile
+  - Gemfile.lock
+  - tailwind.config.js
+  - postcss.config.js
+  - vendor
+
+
+collections:
+  reviews:
+    output: true
+    permalink: /reviews/:slug/
+  essays:
+    output: true
+    permalink: /essays/:slug/
+
