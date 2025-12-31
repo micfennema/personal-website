@@ -11,3 +11,5 @@ Sally Rooney's *Normal People* is often described as a "millennial love story," 
 The writing style is stark—no quotation marks, sparse description—which mirrors the raw and often unspoken emotions of the characters, Marianne and Connell.
 
 It's a frustrating read at times, because so much conflict arises from what isn't said. But that's also what makes it so realistic.
+
+By: Michael Fennema
